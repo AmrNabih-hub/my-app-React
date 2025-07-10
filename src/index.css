@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000 0%, #0a1124 60%, #0a1a2f 100%);
+  color: #e5e7eb;
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+:root {
+  --accent-orange: #b45309;
+  --accent-orange-light: #ea580c;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
